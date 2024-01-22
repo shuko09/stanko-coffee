@@ -37,15 +37,15 @@ main {
 }
 
 h1{
-  font-size: 4em;
-  line-height: 75px;
+  font-size: 3em;
+  line-height: 55px;
 }
 
 h3{
-  font-size: 3em;
+  font-size: 2em;
   text-align: left;
   font-weight: 300;
-  margin-top: -40px;
+  margin-top: -20px;
 
 }
 
@@ -116,12 +116,15 @@ span{
   text-align: center;
   color: #ffffff;
   font-size: 1.3em;
+  padding-bottom: 1.5em;
+  padding-top: 1em;
 }
 
 h2{
   text-align: center;
-  padding-top: 2em;
+  padding-top: 1em;
   color: #ffffff;
+  
 }
 
 .card-1{
