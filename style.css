@@ -115,7 +115,7 @@ span{
 .card-text{
   text-align: center;
   color: #ffffff;
-  font-size: 2em;
+  font-size: 1.3em;
 }
 
 h2{
@@ -126,7 +126,7 @@ h2{
 
 .card-1{
   flex: 0 0 48%; /* 2% gap between cards */
-  margin-bottom: 1.25em; /* 20px */
+  margin-bottom: 1em; /* 20px */
   padding: 2em;
   background-color: #33CA7F;
   height: 30vh;
@@ -135,7 +135,7 @@ h2{
 
 .card-2 {
   flex: 0 0 48%; /* 2% gap between cards */
-  margin-bottom: 1.25em; /* 20px */
+  margin-bottom: 1em; /* 20px */
   padding: 2em;
   background-color: #00916E;
   height: 30vh;
@@ -144,7 +144,7 @@ h2{
 
 .card-3 {
   flex: 0 0 48%; /* 2% gap between cards */
-  margin-bottom: 1.25em; /* 20px */
+  margin-bottom: 1; /* 20px */
   padding: 2em;
   background-color: #030303;
   height: 30vh;
@@ -292,13 +292,12 @@ footer {
     bottom: 0;
 }
 
-@media (max-width: 23.4em) { /* 768px */
+@media (max-width: 23.4em) { /* 375px */
 
     nav a {
         display: block;
         padding: 0.625em 0; /* 10px */
     }
-
 
     .cards {
         flex-direction: column;
